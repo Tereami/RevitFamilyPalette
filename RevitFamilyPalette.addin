@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>RevitFamilyPalette</Name>
+    <Assembly>C:\Csharp\RevitFamilyPalette\bin\Debug\RevitFamilyPalette.dll</Assembly>
+    <AddInId>b9361fc9-6f5e-4d13-bae4-19b1de317469</AddInId>
+    <FullClassName>RevitFamilyPalette.Application</FullClassName>
+    <VendorId>IP Zuyev Alexandr</VendorId>
+    <VendorDescription>BIM-STARTER, www.bim-starter.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
