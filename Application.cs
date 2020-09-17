@@ -32,16 +32,16 @@ namespace RevitFamilyPalette
 			{
 			}
 			RibbonPanel ribbonPanel = uiControlledApp.CreateRibbonPanel(text, "BIM Library");
-			PushButton pushButton = ribbonPanel.AddItem(new PushButtonData("ShowCatalog", "Показать\nпанель", Application.assemblyPath, "TestDockable3.CommandShowDockableWindow")) as PushButton;
+			PushButton pushButton = ribbonPanel.AddItem(new PushButtonData("ShowCatalog", "Показать\nпанель", Application.assemblyPath, "RevitFamilyPalette.CommandShowDockableWindow")) as PushButton;
 			pushButton.LargeImage = new BitmapImage(new Uri(Path.Combine(Application.iconsPath, "catalog.png")));
 			pushButton.ToolTip = "Панель BIM-Library для загрузки и установки семейств в проекте";
 			this.RegisterWindow(uiControlledApp);
-			return 0;
+			return Result.Succeeded;
 		}
 
 		public Result OnShutdown(UIControlledApplication application)
 		{
-			return 0;
+			return Result.Succeeded;
 		}
 
 		private void RegisterWindow(UIControlledApplication app)

@@ -142,13 +142,13 @@ namespace RevitFamilyPalette
 		//	this._contentLoaded = true;
 		//}
 
-		[GeneratedCode("PresentationBuildTasks", "4.0.0.0"), EditorBrowsable(EditorBrowsableState.Never), DebuggerNonUserCode]
-		void IStyleConnector.Connect(int connectionId, object target)
-		{
-			if (connectionId == 4)
-			{
-				((System.Windows.Controls.ListView)target).MouseUp += new MouseButtonEventHandler(this.ListBox_MouseUp);
-			}
-		}
+		//[GeneratedCode("PresentationBuildTasks", "4.0.0.0"), EditorBrowsable(EditorBrowsableState.Never), DebuggerNonUserCode]
+		//void IStyleConnector.Connect(int connectionId, object target)
+		//{
+		//	if (connectionId == 4)
+		//	{
+		//		((System.Windows.Controls.ListView)target).MouseUp += new MouseButtonEventHandler(this.ListBox_MouseUp);
+		//	}
+		//}
 	}
 }
